@@ -105,7 +105,7 @@ def send_stars(message):
     bot.reply_to(message, jbosslogostars)
 @bot.message_handler(commands=['help'])
 def send_stars(message):
-    bot.reply_to(message, "/help" + "\n" + "/listallstars" + "\n" + "/addallstars" + "\n" + "/blogstars" + "\n" + "/Archive" + "\n" + "/leadmgmtandroidstars" + "\n" + "/leadmgmtserverstars" + "\n" + "/contactgroupsandroidstars" + "\n" + "/contactgroupsserverstars" + "\n" "/homestars" + "\n" + "/ideastars" + "\n" "/certificategeneratorserverstars" + "\n" + "/visitingcardstars" + "\n" + "/certificategeneratorfrontstars" + "\n" + "/leadmgmtfrontstars" + "\n" + "/codeinmentorsplygrdstars" + "\n" + "/gciwebsitestars" + "\n" + "/mentorshandbookstars" + "\n" + "/visitingcardandroidstars" + "\n" + "/visitingcardbackendstars" + "\n" + "/jbosslogostars")
+    bot.reply_to(message, "/help" + "\n" + "/listallstars" + "\n" + "/addallstars" + "\n" + "/blog" + "\n" + "/Archive" + "\n" + "/leadmgmtandroidstars" + "\n" + "/leadmgmtserverstars" + "\n" + "/contactgroupsandroidstars" + "\n" + "/contactgroupsserverstars" + "\n" "/homestars" + "\n" + "/ideastars" + "\n" "/certificategeneratorserverstars" + "\n" + "/visitingcardstars" + "\n" + "/certificategeneratorfrontstars" + "\n" + "/leadmgmtfrontstars" + "\n" + "/codeinmentorsplygrdstars" + "\n" + "/gciwebsitestars" + "\n" + "/mentorshandbookstars" + "\n" + "/visitingcardandroidstars" + "\n" + "/visitingcardbackendstars" + "\n" + "/jbosslogostars")
 while True:
     try:
         bot.polling()
